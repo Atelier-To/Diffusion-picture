@@ -124,7 +124,7 @@ tensorboard --logdir anime-64/logs
 
 ## 示例可视化
 
-### 前向扩散过程 \
+### 前向扩散过程 
 ![clean.png](example/clean.png)\
 
 ![noisy.png](example/noisy.png)
@@ -135,7 +135,7 @@ tensorboard --logdir anime-64/logs
 
 ### 生成样本
 
-`anime-64/samples/0002.png` — 训练完成后模型生成的动漫人脸（4×4 网格）。 \
+`anime-64/samples/0002.png` — 训练三个批次后模型生成的动漫人脸（4×4 网格）。 \
 ![0002.png](anime-64/samples/0002.png) \
 训练结果图片已放入文件中。
 
