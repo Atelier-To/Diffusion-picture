@@ -38,5 +38,5 @@ def add_noise():
     noisy_images = noise_scheduler.add_noise(clean_images,noise,timesteps)
     grid1 = make_image_grid([transforms.ToPILImage()(clean_image) for clean_image in clean_images],rows=4,cols=4)
     grid2 = make_image_grid([transforms.ToPILImage()(noisy_image) for noisy_image in noisy_images],rows=4,cols=4)
-    grid1.save("example/clean.png")
-    grid2.save("example/noisy.png")
+    grid1.save("example/clean1.png")
+    grid2.save("example/noisy1.png")

@@ -93,7 +93,7 @@ def Unet_ac(train_loader):
             global_step += 1
         progress_bar.close()
 
-        # 每个 epoch 结束后保存模型
+        # 每个 epoch 结束保存模型
         accelerator.wait_for_everyone()
         if accelerator.is_main_process:
             unwrapped_model = accelerator.unwrap_model(model)

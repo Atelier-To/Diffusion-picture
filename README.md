@@ -133,6 +133,7 @@ tensorboard --logdir anime-64/logs
 ### 生成样本
 
 `anime-64/samples/0002.png` — 训练完成后模型生成的动漫人脸（4×4 网格）。
+训练结果图片已放入文件中。
 
 ---
 该文主要是参考了Mastering pytorch当中对于Unet架构的介绍和代码块对其扩散模型代码的复现，数据集来源如下。
